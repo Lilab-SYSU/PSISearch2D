@@ -7,7 +7,7 @@
 
 =============================  
 
-##1. How to install psisearch2  
+## 1. How to install psisearch2  
 
 =============================  
 
@@ -15,7 +15,7 @@ This document will instruct you how to install psisearch2D
 
 =============================  
 
-2. Install required softwares  
+## 2. Install required softwares  
 
 =============================
 Please install these softwares as follows beforehand:  
@@ -31,13 +31,13 @@ Perl Module:
 
 =====================================  
 
-3. Download and Installation Guidance  
+## 3. Download and Installation Guidance  
 
 =====================================  
 
 ===========  
 
-##PSISearch2D  
+### PSISearch2D  
 
 ===========
 $wget http://lilab2.sysu.edu.cn/Tools/download/PSISearch2D.tar.gz  
@@ -62,7 +62,7 @@ PSISearch2D/
 
 ------------------------  
 
-5 Prepare PSISearch2 DATA  
+## 5 Prepare PSISearch2 DATA  
 
 ------------------------  
 
@@ -78,7 +78,7 @@ $makeblastdb -in uniprot.fasta -dbtype prot
 
 =========================  
 
-6 Test  
+## 6 Test  
 
 =========================  
 
