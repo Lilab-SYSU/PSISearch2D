@@ -48,15 +48,24 @@ $gunzip protein_domain.sql.gz
 
 $tar zxvf PSISearch2D.tar.gz  
 
-PSISearch2D/
-     |
-     |-----bin : precompile binary software :ggsearch glsearch ssearch psiblast
-     |
-     |-----data : score matrix 
-     |
-     |-----scripts : perl scripts: psisearch2_msa.pl m89_btop_msa2.pl etc
-     |
-     |-----test : test query dataset
+PSISearch2D/  
+
+     |  
+     
+     |-----bin : precompile binary software :ggsearch glsearch ssearch psiblast  
+     
+     |  
+     
+     |-----data : score matrix   
+     
+     |  
+     
+     |-----scripts : perl scripts: psisearch2_msa.pl m89_btop_msa2.pl etc  
+     
+     |  
+     
+     |-----test : test query dataset  
+     
  $cd psisearch2D
  $mysql -uUSERNAME -pPASSWD DBname < ./protein_domain.sql
 
