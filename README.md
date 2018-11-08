@@ -51,8 +51,10 @@ PSISearch2D/
 5 Prepare PSISearch2 DATA
 ------------------------
 download UniProt Knowledgebase UniProtKB/Swiss-Prot database
-$cd opt/database/
-$makeblastdb -in uniprot.fasta -dbtype prot
+$cd opt/database/  
+
+$makeblastdb -in uniprot.fasta -dbtype prot 
+
  
 *You can use your private database ,but you need to "makeblastdb -in {your database}.fasta -dbtype prot"
  
@@ -60,5 +62,6 @@ $makeblastdb -in uniprot.fasta -dbtype prot
 =========================
 6 Test
 =========================
-$cd PSISearch2D/scripts
+$cd PSISearch2D/scripts  
+
 $psisearch2d_msa_anno.pl --query ../test/testpro.txt --out_name test.result --query_seed --errors --num_iter 5 --db ../uniprot_TrEMBL/uniprot_sprot.fasta --pgm ssearch --domain_ann pfam --MySQLDB DBname --DBuser username --DBpasswd passwd
