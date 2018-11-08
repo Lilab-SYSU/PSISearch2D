@@ -1,0 +1,6 @@
+../scripts/psisearch2_msa.pl --query ../seq/mgstm1.aa --db ../seq/uniprotkb_swissprot.fasta --errors --evalue 0.001 --num_iter 10
+
+
+../scripts/psisearch2_msa.pl --query ../seq/mgstm1.aa --db ../seq/uniprotkb_swissprot.fasta --errors --evalue 0.001 --num_iter 5 --out_name testout
+
+

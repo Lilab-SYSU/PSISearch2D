@@ -1,0 +1,3 @@
+sp|P09488
+sp|p12345
+sp|PPA3_YEAST
