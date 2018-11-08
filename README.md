@@ -86,4 +86,4 @@ $makeblastdb -in uniprot.fasta -dbtype prot
 
 $cd PSISearch2D/scripts  
 
-$psisearch2d_msa_anno.pl --query ../test/testpro.txt --out_name test.result --query_seed --errors --num_iter 5 --db ../uniprot_TrEMBL/uniprot_sprot.fasta --pgm ssearch --domain_ann pfam --MySQLDB DBname --DBuser username --DBpasswd passwd
+$psisearch2d_msa_anno.pl --query ../test/testpro.txt --out_name test.result --query_seed --errors --num_iter 5 --db opt/database/ uniprot_sprot.fasta --pgm ssearch --domain_ann pfam --MySQLDB DBname --DBuser username --DBpasswd passwd
