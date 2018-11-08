@@ -6,12 +6,14 @@
 \###########################
 
 =============================
-1. How to install psisearch2
+##1. How to install psisearch2  
+
 =============================
 This document will instruct you how to install psisearch2D
 
 =============================
-2. Install required softwares
+2. Install required softwares  
+
 =============================
 Please install these softwares as follows beforehand:
 * mysql
@@ -24,11 +26,13 @@ Perl Module:
 * DBD::MySQL
 
 =====================================
-3. Download and Installation Guidance
-=====================================
-=======
+3. Download and Installation Guidance  
+
+=====================================  
+
+===========
 PSISearch2D
-=======
+===========
 $wget http://lilab2.sysu.edu.cn/Tools/download/PSISearch2D.tar.gz  
 
 $wget http://lilab2.sysu.edu.cn/Tools/download/protein_domain.sql.gz  
