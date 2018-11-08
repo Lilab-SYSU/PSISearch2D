@@ -27,10 +27,14 @@ Perl Module:
 =======
 PSISearch2D
 =======
-$wget http://lilab2.sysu.edu.cn/Tools/download/PSISearch2D.tar.gz
-$wget http://lilab2.sysu.edu.cn/Tools/download/protein_domain.sql.gz
-$gunzip protein_domain.sql.gz
-$tar zxvf PSISearch2D.tar.gz
+$wget http://lilab2.sysu.edu.cn/Tools/download/PSISearch2D.tar.gz  
+
+$wget http://lilab2.sysu.edu.cn/Tools/download/protein_domain.sql.gz  
+
+$gunzip protein_domain.sql.gz  
+
+$tar zxvf PSISearch2D.tar.gz  
+
 PSISearch2D/
      |
      |-----bin : precompile binary software :ggsearch glsearch ssearch psiblast
